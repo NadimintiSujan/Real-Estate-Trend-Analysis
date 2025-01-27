@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.table-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table-nav li {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.table-nav li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.table-nav li a:hover {
+  background-color: #ddd;
+}
+
+.background-container {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mashvisor.com%2Fblog%2Freal-estate-deal-analyzer%2F&psig=AOvVaw066Q81QG-_pMb74yjLU-71&ust=1701186883785000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiG5pHF5IIDFQAAAAAdAAAAABAE");
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  background-repeat: no-repeat;
+  /* Additional styles if necessary */
+  height: 100vh; /* Set the height of the container */
+}
+
+html, body, .Login-component {
+  height: 100%;
+}
